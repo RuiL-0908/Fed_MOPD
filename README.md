@@ -47,27 +47,27 @@ $$
 
 #### 1. Student 生成 on-policy rollout
 
-Student 根据自己的当前策略自回归采样回复 $\hat y=(\hat y_1,\ldots,\hat y_T)$：
+Student 根据自己的当前策略自回归采样回复 $\hat{y}=(\hat{y}_1,\ldots,\hat{y}_T)$：
 
 $$
-\hat y_t\sim p_{\theta_k}
-\left(\cdot\mid x,\hat y_{<t}\right).
+\hat{y}_t\sim p_{\theta_k}
+\left(\cdot\mid x,\hat{y}_{1:t-1}\right).
 $$
 
 这里使用 Student 自己生成的序列，而不是直接在参考答案 $y^*$ 上做普通 SFT，因此训练数据始终来自当前 Student 的状态分布，这就是 **on-policy**。
 
 #### 2. Teacher 在相同 rollout 前缀上提供分布
 
-在每个时间步 $t$，Student 与 Teacher 都以 Student 已生成的相同前缀 $\hat y_{<t}$ 为条件。二者的区别是 Teacher 额外看到参考答案 $y^*$：
+在每个时间步 $t$，Student 与 Teacher 都以 Student 已生成的相同前缀 $\hat{y}_{1:t-1}$ 为条件。二者的区别是 Teacher 额外看到参考答案 $y^*$：
 
 $$
 p_t^{S}=p_{\theta_k}
-\left(\cdot\mid x,\hat y_{<t}\right),
+\left(\cdot\mid x,\hat{y}_{1:t-1}\right),
 $$
 
 $$
 p_t^{T}=p_{\phi}
-\left(\cdot\mid x,y^*,\hat y_{<t}\right).
+\left(\cdot\mid x,y^*,\hat{y}_{1:t-1}\right).
 $$
 
 因此，即使 Student 的前缀已经出现错误，Teacher 仍可利用 $y^*$ 判断下一步 token 应更倾向于哪些方向。Teacher 只执行前向传播，不接收梯度。
