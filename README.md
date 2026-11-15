@@ -53,15 +53,15 @@ $$
 Student 的第 $t$ 个 token 按下式采样：
 
 $$
-\hat y_t \sim p_{\theta_k}\!\left(\cdot \mid x,\hat y_{1:t-1}\right).
+\hat{y}_t \sim p_{\theta_k}(\cdot \vert x, \hat{y}_1, \ldots, \hat{y}_{t-1}).
 $$
 
 Student 与 Teacher 的分布分别为：
 
 $$
-p_t^S=p_{\theta_k}\!\left(\cdot \mid x,\hat y_{1:t-1}\right),
+p_t^S = p_{\theta_k}(\cdot \vert x, \hat{y}_1, \ldots, \hat{y}_{t-1}),
 \qquad
-p_t^T=p_{\phi}\!\left(\cdot \mid x,y^*,\hat y_{1:t-1}\right).
+p_t^T = p_{\phi}(\cdot \vert x, y^*, \hat{y}_1, \ldots, \hat{y}_{t-1}).
 $$
 
 原始 FedAvg-MOPSD 实验在完整词表上计算 Teacher 到 Student 的 forward KL：
@@ -247,7 +247,7 @@ Server 额外维护一个可训练 Student。三个 Client 完成本轮本地 OP
 在位置 $t$，Client $i$ 返回稀疏分布 $q_{i,t}$。令三个 top-k 支持集合的并集为
 
 $$
-S_t=\bigcup_i \mathrm{TopK}\!\left(q_{i,t}\right).
+S_t = K_{1,t} \cup K_{2,t} \cup K_{3,t}.
 $$
 
 Server 可在并集上进行加权概率聚合：
