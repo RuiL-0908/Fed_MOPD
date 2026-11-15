@@ -1,0 +1,96 @@
+
+===== client_math full-parameter OPSD launch 2026-10-29T09:30:57.406265+00:00 =====
+W1029 09:31:06.489000 542 site-packages/torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W1029 09:31:06.528000 542 site-packages/torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+Traceback (most recent call last):
+  File "/code/results/client_math_opsd_qwen3_4b_fullft/opsd_train_fullft.py", line 119, in <module>
+    script_args, training_args, model_args = parser.parse_args_and_config()
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/miniconda3/envs/py312/lib/python3.12/site-packages/trl/scripts/utils.py", line 345, in parse_args_and_config
+    output = self.parse_args_into_dataclasses(args=args, return_remaining_strings=return_remaining_strings)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/miniconda3/envs/py312/lib/python3.12/site-packages/trl/scripts/_hf_argparser.py", line 380, in parse_args_into_dataclasses
+    raise ValueError(f"Some specified arguments are not used by the HfArgumentParser: {remaining_args}")
+ValueError: Some specified arguments are not used by the HfArgumentParser: ['--warmup_ratio', '0.0']
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/usr/local/miniconda3/envs/py312/lib/python3.12/site-packages/accelerate/commands/launch.py", line 1423, in <module>
+    main()
+  File "/usr/local/miniconda3/envs/py312/lib/python3.12/site-packages/accelerate/commands/launch.py", line 1419, in main
+    launch_command(args)
+  File "/usr/local/miniconda3/envs/py312/lib/python3.12/site-packages/accelerate/commands/launch.py", line 1413, in launch_command
+    simple_launcher(args)
+  File "/usr/local/miniconda3/envs/py312/lib/python3.12/site-packages/accelerate/commands/launch.py", line 999, in simple_launcher
+    raise subprocess.CalledProcessError(returncode=process.returncode, cmd=cmd)
+subprocess.CalledProcessError: Command '['/usr/local/miniconda3/envs/py312/bin/python', '/code/results/client_math_opsd_qwen3_4b_fullft/opsd_train_fullft.py', '--model_name_or_path', 'Qwen/Qwen3-4B', '--model_revision', 'main', '--learning_rate', '5e-06', '--weight_decay', '0.0', '--optim', 'adamw_torch_fused', '--lr_scheduler_type', 'linear', '--warmup_ratio', '0.0', '--max_grad_norm', '0.1', '--per_device_train_batch_size', '1', '--gradient_accumulation_steps', '32', '--gradient_checkpointing', '--output_dir', '/code/results/client_math_opsd_qwen3_4b_fullft', '--run_config', 'paper_math_fullft_100steps_single_4090', '--max_steps', '100', '--num_train_epochs', '30', '--max_completion_length', '1024', '--save_strategy', 'steps', '--save_steps', '10', '--save_total_limit', '1', '--save_only_model', 'false', '--logging_steps', '1', '--attn_implementation', 'sdpa', '--dtype', 'bfloat16', '--bf16', 'true', '--tf32', 'true', '--max_length', '20000', '--beta', '0.0', '--lmbda', '1', '--temperature', '1.1', '--top_p', '0.95', '--top_k', '20', '--fixed_teacher', '--jsd_token_clip', '0.05', '--student_thinking', 'false', '--teacher_thinking', 'true', '--reason_first', 'false', '--top_k_loss', '0', '--seed', '42', '--data_seed', '42', '--dataloader_num_workers', '0', '--report_to', 'none']' returned non-zero exit status 1.
+
+===== client_math full-parameter OPSD launch 2026-10-29T09:34:31.688735+00:00 =====
+W1029 09:34:42.072000 649 site-packages/torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W1029 09:34:42.131000 649 site-packages/torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+
+================================================================================
+RUN CONFIGURATION
+================================================================================
+WandB Run Name: paper_math_fullft_100steps_single_4090_lr5e-6_bs32
+Output Directory: /code/results/client_math_opsd_qwen3_4b_fullft/paper_math_fullft_100steps_single_4090
+================================================================================
+
+
+================================================================================
+Loading model with dtype: bfloat16
+Using attention implementation: sdpa
+================================================================================
+
+Traceback (most recent call last):
+  File "/code/results/client_math_opsd_qwen3_4b_fullft/opsd_train_fullft.py", line 236, in <module>
+    trust_remote_code=model_args.trust_remote_code,
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ModelConfig' object has no attribute 'trust_remote_code'
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/usr/local/miniconda3/envs/py312/lib/python3.12/site-packages/accelerate/commands/launch.py", line 1423, in <module>
+    main()
+  File "/usr/local/miniconda3/envs/py312/lib/python3.12/site-packages/accelerate/commands/launch.py", line 1419, in main
+    launch_command(args)
+  File "/usr/local/miniconda3/envs/py312/lib/python3.12/site-packages/accelerate/commands/launch.py", line 1413, in launch_command
+    simple_launcher(args)
+  File "/usr/local/miniconda3/envs/py312/lib/python3.12/site-packages/accelerate/commands/launch.py", line 999, in simple_launcher
+    raise subprocess.CalledProcessError(returncode=process.returncode, cmd=cmd)
+subprocess.CalledProcessError: Command '['/usr/local/miniconda3/envs/py312/bin/python', '/code/results/client_math_opsd_qwen3_4b_fullft/opsd_train_fullft.py', '--model_name_or_path', 'Qwen/Qwen3-4B', '--model_revision', 'main', '--learning_rate', '5e-06', '--weight_decay', '0.0', '--optim', 'adamw_torch_fused', '--lr_scheduler_type', 'linear', '--warmup_steps', '0.0', '--max_grad_norm', '0.1', '--per_device_train_batch_size', '1', '--gradient_accumulation_steps', '32', '--gradient_checkpointing', '--output_dir', '/code/results/client_math_opsd_qwen3_4b_fullft', '--run_config', 'paper_math_fullft_100steps_single_4090', '--max_steps', '100', '--num_train_epochs', '30', '--max_completion_length', '1024', '--save_strategy', 'steps', '--save_steps', '10', '--save_total_limit', '1', '--save_only_model', 'false', '--logging_steps', '1', '--attn_implementation', 'sdpa', '--dtype', 'bfloat16', '--bf16', 'true', '--tf32', 'true', '--max_length', '20000', '--beta', '0.0', '--lmbda', '1', '--temperature', '1.1', '--top_p', '0.95', '--top_k', '20', '--fixed_teacher', '--jsd_token_clip', '0.05', '--student_thinking', 'false', '--teacher_thinking', 'true', '--reason_first', 'false', '--top_k_loss', '0', '--seed', '42', '--data_seed', '42', '--dataloader_num_workers', '0', '--report_to', 'none']' returned non-zero exit status 1.
+
+===== client_math full-parameter OPSD launch 2026-10-29T09:35:47.783798+00:00 =====
+W1029 09:35:55.926000 751 site-packages/torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W1029 09:35:55.962000 751 site-packages/torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+
+================================================================================
+RUN CONFIGURATION
+================================================================================
+WandB Run Name: paper_math_fullft_100steps_single_4090_lr5e-6_bs32
+Output Directory: /code/results/client_math_opsd_qwen3_4b_fullft/paper_math_fullft_100steps_single_4090
+================================================================================
+
+
+================================================================================
+Loading model with dtype: bfloat16
+Using attention implementation: sdpa
+================================================================================
+
+Traceback (most recent call last):
+  File "/code/results/client_math_opsd_qwen3_4b_fullft/opsd_train_fullft.py", line 236, in <module>
+    trust_remote_code=model_args.trust_remote_code,
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ModelConfig' object has no attribute 'trust_remote_code'
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/usr/local/miniconda3/envs/py312/lib/python3.12/site-packages/accelerate/commands/launch.py", line 1423, in <module>
+    main()
+  File "/usr/local/miniconda3/envs/py312/lib/python3.12/site-packages/accelerate/commands/launch.py", line 1419, in main
+    launch_command(args)
+  File "/usr/local/miniconda3/envs/py312/lib/python3.12/site-packages/accelerate/commands/launch.py", line 1413, in launch_command
+    simple_launcher(args)
+  File "/usr/local/miniconda3/envs/py312/lib/python3.12/site-packages/accelerate/commands/launch.py", line 999, in simple_launcher
+    raise subprocess.CalledProcessError(returncode=process.returncode, cmd=cmd)
+subprocess.CalledProcessError: Command '['/usr/local/miniconda3/envs/py312/bin/python', '/code/results/client_math_opsd_qwen3_4b_fullft/opsd_train_fullft.py', '--model_name_or_path', 'Qwen/Qwen3-4B', '--model_revision', 'main', '--learning_rate', '5e-06', '--weight_decay', '0.0', '--optim', 'adamw_torch_fused', '--lr_scheduler_type', 'linear', '--warmup_steps', '0.0', '--max_grad_norm', '0.1', '--per_device_train_batch_size', '1', '--gradient_accumulation_steps', '32', '--gradient_checkpointing', '--output_dir', '/code/results/client_math_opsd_qwen3_4b_fullft', '--run_config', 'paper_math_fullft_100steps_single_4090', '--max_steps', '100', '--num_train_epochs', '30', '--max_completion_length', '1024', '--save_strategy', 'steps', '--save_steps', '10', '--save_total_limit', '1', '--save_only_model', 'false', '--logging_steps', '1', '--attn_implementation', 'sdpa', '--dtype', 'bfloat16', '--bf16', 'true', '--tf32', 'true', '--max_length', '20000', '--beta', '0.0', '--lmbda', '1', '--temperature', '1.1', '--top_p', '0.95', '--top_k', '20', '--fixed_teacher', '--jsd_token_clip', '0.05', '--student_thinking', 'false', '--teacher_thinking', 'true', '--reason_first', 'false', '--top_k_loss', '0', '--seed', '42', '--data_seed', '42', '--dataloader_num_workers', '0', '--report_to', 'none']' returned non-zero exit status 1.

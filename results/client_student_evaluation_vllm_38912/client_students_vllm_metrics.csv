@@ -1,0 +1,14 @@
+﻿benchmark,domain,metric,score,score_percent,numerator,denominator,status,note
+AIME25,math,avg_at_12,0.027777777777777776,2.7777777777777777,10,360,complete,format_rate=205/360
+AIME25,math,pass_at_12,0.26666666666666666,26.666666666666668,8,30,complete,
+AIME26,math,avg_at_12,0.019444444444444445,1.9444444444444444,7,360,complete,format_rate=221/360
+AIME26,math,pass_at_12,0.1,10.0,3,30,complete,
+IFBENCH,if,prompt_level_strict,0.14666666666666667,14.666666666666666,44,300,complete,
+IFBENCH,if,instruction_level_strict,0.17151162790697674,17.151162790697676,59,344,complete,
+IFBENCH,if,prompt_level_loose,0.19666666666666666,19.666666666666664,59,300,complete,
+IFBENCH,if,instruction_level_loose,0.2180232558139535,21.802325581395348,75,344,complete,
+IFEVAL,if,prompt_level_strict,0.1866913123844732,18.66913123844732,101,541,complete,
+IFEVAL,if,instruction_level_strict,0.29376498800959233,29.376498800959233,245,834,complete,
+IFEVAL,if,prompt_level_loose,0.19963031423290203,19.963031423290204,108,541,complete,
+IFEVAL,if,instruction_level_loose,0.31894484412470026,31.894484412470025,266,834,complete,
+LiveCodeBench,code,pass@1,0.04549763033175355,4.549763033175355,48,1055,complete,

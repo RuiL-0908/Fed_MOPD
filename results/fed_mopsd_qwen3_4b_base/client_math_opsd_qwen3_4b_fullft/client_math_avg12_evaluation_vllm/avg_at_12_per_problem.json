@@ -1,0 +1,482 @@
+[
+  {
+    "benchmark": "AIME25",
+    "sample_id": "0",
+    "correct_samples": 12,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 1.0
+  },
+  {
+    "benchmark": "AIME25",
+    "sample_id": "1",
+    "correct_samples": 12,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 1.0
+  },
+  {
+    "benchmark": "AIME25",
+    "sample_id": "2",
+    "correct_samples": 12,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 1.0
+  },
+  {
+    "benchmark": "AIME25",
+    "sample_id": "3",
+    "correct_samples": 12,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 1.0
+  },
+  {
+    "benchmark": "AIME25",
+    "sample_id": "4",
+    "correct_samples": 12,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 1.0
+  },
+  {
+    "benchmark": "AIME25",
+    "sample_id": "5",
+    "correct_samples": 12,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 1.0
+  },
+  {
+    "benchmark": "AIME25",
+    "sample_id": "6",
+    "correct_samples": 1,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 0.08333333333333333
+  },
+  {
+    "benchmark": "AIME25",
+    "sample_id": "7",
+    "correct_samples": 11,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 0.9166666666666666
+  },
+  {
+    "benchmark": "AIME25",
+    "sample_id": "8",
+    "correct_samples": 4,
+    "formatted_samples": 10,
+    "total_samples": 12,
+    "average_accuracy": 0.3333333333333333
+  },
+  {
+    "benchmark": "AIME25",
+    "sample_id": "9",
+    "correct_samples": 1,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 0.08333333333333333
+  },
+  {
+    "benchmark": "AIME25",
+    "sample_id": "10",
+    "correct_samples": 3,
+    "formatted_samples": 9,
+    "total_samples": 12,
+    "average_accuracy": 0.25
+  },
+  {
+    "benchmark": "AIME25",
+    "sample_id": "11",
+    "correct_samples": 10,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 0.8333333333333334
+  },
+  {
+    "benchmark": "AIME25",
+    "sample_id": "12",
+    "correct_samples": 1,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 0.08333333333333333
+  },
+  {
+    "benchmark": "AIME25",
+    "sample_id": "13",
+    "correct_samples": 0,
+    "formatted_samples": 10,
+    "total_samples": 12,
+    "average_accuracy": 0.0
+  },
+  {
+    "benchmark": "AIME25",
+    "sample_id": "14",
+    "correct_samples": 0,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 0.0
+  },
+  {
+    "benchmark": "AIME25",
+    "sample_id": "15",
+    "correct_samples": 12,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 1.0
+  },
+  {
+    "benchmark": "AIME25",
+    "sample_id": "16",
+    "correct_samples": 12,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 1.0
+  },
+  {
+    "benchmark": "AIME25",
+    "sample_id": "17",
+    "correct_samples": 9,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 0.75
+  },
+  {
+    "benchmark": "AIME25",
+    "sample_id": "18",
+    "correct_samples": 12,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 1.0
+  },
+  {
+    "benchmark": "AIME25",
+    "sample_id": "19",
+    "correct_samples": 7,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 0.5833333333333334
+  },
+  {
+    "benchmark": "AIME25",
+    "sample_id": "20",
+    "correct_samples": 11,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 0.9166666666666666
+  },
+  {
+    "benchmark": "AIME25",
+    "sample_id": "21",
+    "correct_samples": 12,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 1.0
+  },
+  {
+    "benchmark": "AIME25",
+    "sample_id": "22",
+    "correct_samples": 8,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 0.6666666666666666
+  },
+  {
+    "benchmark": "AIME25",
+    "sample_id": "23",
+    "correct_samples": 12,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 1.0
+  },
+  {
+    "benchmark": "AIME25",
+    "sample_id": "24",
+    "correct_samples": 12,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 1.0
+  },
+  {
+    "benchmark": "AIME25",
+    "sample_id": "25",
+    "correct_samples": 10,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 0.8333333333333334
+  },
+  {
+    "benchmark": "AIME25",
+    "sample_id": "26",
+    "correct_samples": 11,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 0.9166666666666666
+  },
+  {
+    "benchmark": "AIME25",
+    "sample_id": "27",
+    "correct_samples": 0,
+    "formatted_samples": 9,
+    "total_samples": 12,
+    "average_accuracy": 0.0
+  },
+  {
+    "benchmark": "AIME25",
+    "sample_id": "28",
+    "correct_samples": 10,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 0.8333333333333334
+  },
+  {
+    "benchmark": "AIME25",
+    "sample_id": "29",
+    "correct_samples": 0,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 0.0
+  },
+  {
+    "benchmark": "AIME26",
+    "sample_id": "1",
+    "correct_samples": 12,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 1.0
+  },
+  {
+    "benchmark": "AIME26",
+    "sample_id": "2",
+    "correct_samples": 11,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 0.9166666666666666
+  },
+  {
+    "benchmark": "AIME26",
+    "sample_id": "3",
+    "correct_samples": 12,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 1.0
+  },
+  {
+    "benchmark": "AIME26",
+    "sample_id": "4",
+    "correct_samples": 12,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 1.0
+  },
+  {
+    "benchmark": "AIME26",
+    "sample_id": "5",
+    "correct_samples": 12,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 1.0
+  },
+  {
+    "benchmark": "AIME26",
+    "sample_id": "6",
+    "correct_samples": 12,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 1.0
+  },
+  {
+    "benchmark": "AIME26",
+    "sample_id": "7",
+    "correct_samples": 12,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 1.0
+  },
+  {
+    "benchmark": "AIME26",
+    "sample_id": "8",
+    "correct_samples": 12,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 1.0
+  },
+  {
+    "benchmark": "AIME26",
+    "sample_id": "9",
+    "correct_samples": 4,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 0.3333333333333333
+  },
+  {
+    "benchmark": "AIME26",
+    "sample_id": "10",
+    "correct_samples": 5,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 0.4166666666666667
+  },
+  {
+    "benchmark": "AIME26",
+    "sample_id": "11",
+    "correct_samples": 6,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 0.5
+  },
+  {
+    "benchmark": "AIME26",
+    "sample_id": "12",
+    "correct_samples": 12,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 1.0
+  },
+  {
+    "benchmark": "AIME26",
+    "sample_id": "13",
+    "correct_samples": 9,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 0.75
+  },
+  {
+    "benchmark": "AIME26",
+    "sample_id": "14",
+    "correct_samples": 0,
+    "formatted_samples": 10,
+    "total_samples": 12,
+    "average_accuracy": 0.0
+  },
+  {
+    "benchmark": "AIME26",
+    "sample_id": "15",
+    "correct_samples": 0,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 0.0
+  },
+  {
+    "benchmark": "AIME26",
+    "sample_id": "16",
+    "correct_samples": 12,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 1.0
+  },
+  {
+    "benchmark": "AIME26",
+    "sample_id": "17",
+    "correct_samples": 4,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 0.3333333333333333
+  },
+  {
+    "benchmark": "AIME26",
+    "sample_id": "18",
+    "correct_samples": 3,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 0.25
+  },
+  {
+    "benchmark": "AIME26",
+    "sample_id": "19",
+    "correct_samples": 12,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 1.0
+  },
+  {
+    "benchmark": "AIME26",
+    "sample_id": "20",
+    "correct_samples": 12,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 1.0
+  },
+  {
+    "benchmark": "AIME26",
+    "sample_id": "21",
+    "correct_samples": 12,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 1.0
+  },
+  {
+    "benchmark": "AIME26",
+    "sample_id": "22",
+    "correct_samples": 11,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 0.9166666666666666
+  },
+  {
+    "benchmark": "AIME26",
+    "sample_id": "23",
+    "correct_samples": 10,
+    "formatted_samples": 11,
+    "total_samples": 12,
+    "average_accuracy": 0.8333333333333334
+  },
+  {
+    "benchmark": "AIME26",
+    "sample_id": "24",
+    "correct_samples": 10,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 0.8333333333333334
+  },
+  {
+    "benchmark": "AIME26",
+    "sample_id": "25",
+    "correct_samples": 12,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 1.0
+  },
+  {
+    "benchmark": "AIME26",
+    "sample_id": "26",
+    "correct_samples": 6,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 0.5
+  },
+  {
+    "benchmark": "AIME26",
+    "sample_id": "27",
+    "correct_samples": 4,
+    "formatted_samples": 10,
+    "total_samples": 12,
+    "average_accuracy": 0.3333333333333333
+  },
+  {
+    "benchmark": "AIME26",
+    "sample_id": "28",
+    "correct_samples": 6,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 0.5
+  },
+  {
+    "benchmark": "AIME26",
+    "sample_id": "29",
+    "correct_samples": 0,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 0.0
+  },
+  {
+    "benchmark": "AIME26",
+    "sample_id": "30",
+    "correct_samples": 0,
+    "formatted_samples": 12,
+    "total_samples": 12,
+    "average_accuracy": 0.0
+  }
+]

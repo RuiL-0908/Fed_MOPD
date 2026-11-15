@@ -1,0 +1,21 @@
+{
+  "model_name": "Qwen/Qwen3-4B-Base",
+  "tokenizer_class": "Qwen2Tokenizer",
+  "eos_token": "<|endoftext|>",
+  "eos_token_id": 151643,
+  "im_end_token_id": 151645,
+  "generation_eos_token_ids": [
+    151643,
+    151645
+  ],
+  "chat_template_source": "official tokenizer_config.json at revision 906bfd4b4dc7f14ee4320094d8b41684abff8539",
+  "official_model_revision": "906bfd4b4dc7f14ee4320094d8b41684abff8539",
+  "rendered_example": "<|im_start|>user\nWhat is 1 + 1?<|im_end|>\n<|im_start|>assistant\n",
+  "expected_generation_suffix": "<|im_start|>assistant\n",
+  "checkpoint_type": "pretrained_base",
+  "uses_enable_thinking_argument": false,
+  "default_generation_prompt_opens_think_block": false,
+  "verified_at_utc": "2026-10-22T05:55:44.750853+00:00",
+  "official_model_card": "https://huggingface.co/Qwen/Qwen3-4B-Base",
+  "official_tokenizer_config": "https://huggingface.co/Qwen/Qwen3-4B-Base/blob/main/tokenizer_config.json"
+}

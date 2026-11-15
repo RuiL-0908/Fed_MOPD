@@ -1,0 +1,40 @@
+{
+  "model": "/code/results/client_math_opsd_qwen3_4b_fullft/standalone_math_fullft_100steps_single_4090",
+  "run_fingerprint": "0bf6b081ad3086a1",
+  "protocol": {
+    "metric": "avg_at_12",
+    "samples_per_prompt": 12,
+    "max_seq_length": 32768,
+    "max_new_tokens": 1024,
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "min_p": 0.0,
+    "enable_thinking": false,
+    "seed": 42,
+    "model_signature": "53806a9efac7e615"
+  },
+  "created_at_utc": "2026-10-30T17:03:26.798643+00:00",
+  "metrics": [
+    {
+      "benchmark": "AIME25",
+      "metric": "avg_at_12",
+      "problems": 30,
+      "samples_per_prompt": 12,
+      "correct_generations": 17,
+      "total_generations": 360,
+      "score": 0.04722222222222222,
+      "score_percent": 4.722222222222222
+    },
+    {
+      "benchmark": "AIME26",
+      "metric": "avg_at_12",
+      "problems": 30,
+      "samples_per_prompt": 12,
+      "correct_generations": 2,
+      "total_generations": 360,
+      "score": 0.005555555555555556,
+      "score_percent": 0.5555555555555556
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "model": "/code/results/fed_mopsd_qwen3_4b_base/training/global_round_001",
+  "base_model": "Qwen/Qwen3-4B-Base",
+  "training_fingerprint": "8f6a1cb27d26e7c7b7c4",
+  "run_fingerprint": "be5bc01abfac6069",
+  "created_at_utc": "2026-10-25T11:44:37.486450+00:00",
+  "metrics": [
+    {
+      "benchmark": "AIME25",
+      "domain": "Math",
+      "metric": "exact_match",
+      "score": 0.03333333333333333,
+      "score_percent": 3.3333333333333335,
+      "numerator": 1,
+      "denominator": 30,
+      "status": "complete",
+      "note": ""
+    },
+    {
+      "benchmark": "AIME26",
+      "domain": "Math",
+      "metric": "exact_match",
+      "score": 0.03333333333333333,
+      "score_percent": 3.3333333333333335,
+      "numerator": 1,
+      "denominator": 30,
+      "status": "complete",
+      "note": ""
+    },
+    {
+      "benchmark": "IFBENCH",
+      "domain": "Instruction Following",
+      "metric": "prompt_level_strict",
+      "score": 0.11666666666666667,
+      "score_percent": 11.666666666666666,
+      "numerator": 35,
+      "denominator": 300,
+      "status": "complete",
+      "note": ""
+    },
+    {
+      "benchmark": "IFBENCH",
+      "domain": "Instruction Following",
+      "metric": "instruction_level_strict",
+      "score": 0.12790697674418605,
+      "score_percent": 12.790697674418606,
+      "numerator": 44,
+      "denominator": 344,
+      "status": "complete",
+      "note": ""
+    },
+    {
+      "benchmark": "IFBENCH",
+      "domain": "Instruction Following",
+      "metric": "prompt_level_loose",
+      "score": 0.16,
+      "score_percent": 16.0,
+      "numerator": 48,
+      "denominator": 300,
+      "status": "complete",
+      "note": ""
+    },
+    {
+      "benchmark": "IFBENCH",
+      "domain": "Instruction Following",
+      "metric": "instruction_level_loose",
+      "score": 0.17732558139534885,
+      "score_percent": 17.732558139534884,
+      "numerator": 61,
+      "denominator": 344,
+      "status": "complete",
+      "note": ""
+    },
+    {
+      "benchmark": "IFEVAL",
+      "domain": "Instruction Following",
+      "metric": "prompt_level_strict",
+      "score": 0.36229205175600737,
+      "score_percent": 36.22920517560074,
+      "numerator": 196,
+      "denominator": 541,
+      "status": "complete",
+      "note": ""
+    },
+    {
+      "benchmark": "IFEVAL",
+      "domain": "Instruction Following",
+      "metric": "instruction_level_strict",
+      "score": 0.4856115107913669,
+      "score_percent": 48.561151079136685,
+      "numerator": 405,
+      "denominator": 834,
+      "status": "complete",
+      "note": ""
+    },
+    {
+      "benchmark": "IFEVAL",
+      "domain": "Instruction Following",
+      "metric": "prompt_level_loose",
+      "score": 0.41404805914972276,
+      "score_percent": 41.40480591497228,
+      "numerator": 224,
+      "denominator": 541,
+      "status": "complete",
+      "note": ""
+    },
+    {
+      "benchmark": "IFEVAL",
+      "domain": "Instruction Following",
+      "metric": "instruction_level_loose",
+      "score": 0.5275779376498801,
+      "score_percent": 52.757793764988016,
+      "numerator": 440,
+      "denominator": 834,
+      "status": "complete",
+      "note": ""
+    },
+    {
+      "benchmark": "LiveCodeBench",
+      "domain": "Code",
+      "metric": "pass@1",
+      "score": 0.12511848341232226,
+      "score_percent": 12.511848341232227,
+      "numerator": 132,
+      "denominator": 1055,
+      "status": "complete",
+      "note": ""
+    }
+  ],
+  "livecodebench_evaluation": {
+    "status": "complete",
+    "correct": 132,
+    "total": 1055,
+    "pass@1": 0.12511848341232226,
+    "eval_fingerprint": "beff04d787378ee8",
+    "result_path": "/code/results/fed_mopsd_qwen3_4b_base/evaluation/livecodebench_eval.json"
+  }
+}

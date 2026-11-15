@@ -1,0 +1,96 @@
+{
+  "domain": "if",
+  "model_dir": "/home/lurui/code/Federated_Learning/results/fed_mopsd_qwen3_4b_base/training/round_000/client_if/student_model",
+  "run_fingerprint": "8b8c7e7d2ea2eb59",
+  "created_at_utc": "2026-10-25T19:26:38.445963+00:00",
+  "metrics": [
+    {
+      "benchmark": "IFBENCH",
+      "domain": "Instruction Following",
+      "metric": "prompt_level_strict",
+      "score": 0.10666666666666667,
+      "score_percent": 10.666666666666668,
+      "numerator": 32,
+      "denominator": 300,
+      "status": "complete",
+      "note": ""
+    },
+    {
+      "benchmark": "IFBENCH",
+      "domain": "Instruction Following",
+      "metric": "instruction_level_strict",
+      "score": 0.125,
+      "score_percent": 12.5,
+      "numerator": 43,
+      "denominator": 344,
+      "status": "complete",
+      "note": ""
+    },
+    {
+      "benchmark": "IFBENCH",
+      "domain": "Instruction Following",
+      "metric": "prompt_level_loose",
+      "score": 0.15666666666666668,
+      "score_percent": 15.666666666666668,
+      "numerator": 47,
+      "denominator": 300,
+      "status": "complete",
+      "note": ""
+    },
+    {
+      "benchmark": "IFBENCH",
+      "domain": "Instruction Following",
+      "metric": "instruction_level_loose",
+      "score": 0.1744186046511628,
+      "score_percent": 17.441860465116278,
+      "numerator": 60,
+      "denominator": 344,
+      "status": "complete",
+      "note": ""
+    },
+    {
+      "benchmark": "IFEVAL",
+      "domain": "Instruction Following",
+      "metric": "prompt_level_strict",
+      "score": 0.35489833641404805,
+      "score_percent": 35.48983364140481,
+      "numerator": 192,
+      "denominator": 541,
+      "status": "complete",
+      "note": ""
+    },
+    {
+      "benchmark": "IFEVAL",
+      "domain": "Instruction Following",
+      "metric": "instruction_level_strict",
+      "score": 0.4748201438848921,
+      "score_percent": 47.482014388489205,
+      "numerator": 396,
+      "denominator": 834,
+      "status": "complete",
+      "note": ""
+    },
+    {
+      "benchmark": "IFEVAL",
+      "domain": "Instruction Following",
+      "metric": "prompt_level_loose",
+      "score": 0.41035120147874304,
+      "score_percent": 41.0351201478743,
+      "numerator": 222,
+      "denominator": 541,
+      "status": "complete",
+      "note": ""
+    },
+    {
+      "benchmark": "IFEVAL",
+      "domain": "Instruction Following",
+      "metric": "instruction_level_loose",
+      "score": 0.5275779376498801,
+      "score_percent": 52.757793764988016,
+      "numerator": 440,
+      "denominator": 834,
+      "status": "complete",
+      "note": ""
+    }
+  ]
+}

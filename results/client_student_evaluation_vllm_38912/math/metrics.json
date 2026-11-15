@@ -1,0 +1,67 @@
+{
+  "domain": "math",
+  "model_dir": "/workspace/code/results/fed_mopsd_qwen3_4b_base/training/round_000/client_math/student_model",
+  "run_fingerprint": "1f218ba1cb53b59f",
+  "protocol": {
+    "method": "direct-vllm-client-eval-v1",
+    "domain": "math",
+    "model_signature": "21df544ca94f22ef",
+    "max_model_len": 40960,
+    "max_new_tokens": 38912,
+    "enable_thinking": true,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "top_k": -1,
+    "min_p": 0.0,
+    "samples_per_prompt": 12,
+    "seed": 42,
+    "vllm_version": "0.33.0"
+  },
+  "created_at_utc": "2026-11-13T05:17:42.238758+00:00",
+  "metrics": [
+    {
+      "benchmark": "AIME25",
+      "domain": "math",
+      "metric": "avg_at_12",
+      "score": 0.027777777777777776,
+      "score_percent": 2.7777777777777777,
+      "numerator": 10,
+      "denominator": 360,
+      "status": "complete",
+      "note": "format_rate=205/360"
+    },
+    {
+      "benchmark": "AIME25",
+      "domain": "math",
+      "metric": "pass_at_12",
+      "score": 0.26666666666666666,
+      "score_percent": 26.666666666666668,
+      "numerator": 8,
+      "denominator": 30,
+      "status": "complete",
+      "note": ""
+    },
+    {
+      "benchmark": "AIME26",
+      "domain": "math",
+      "metric": "avg_at_12",
+      "score": 0.019444444444444445,
+      "score_percent": 1.9444444444444444,
+      "numerator": 7,
+      "denominator": 360,
+      "status": "complete",
+      "note": "format_rate=221/360"
+    },
+    {
+      "benchmark": "AIME26",
+      "domain": "math",
+      "metric": "pass_at_12",
+      "score": 0.1,
+      "score_percent": 10.0,
+      "numerator": 3,
+      "denominator": 30,
+      "status": "complete",
+      "note": ""
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "domain": "code",
+  "model_dir": "/home/lurui/code/Federated_Learning/results/fed_mopsd_qwen3_4b_base/training/round_000/client_code/student_model",
+  "run_fingerprint": "40e7db566de7c4e9",
+  "created_at_utc": "2026-10-25T23:39:09.388539+00:00",
+  "metrics": [
+    {
+      "benchmark": "LiveCodeBench",
+      "domain": "Code",
+      "metric": "pass@1",
+      "score": 0.13554502369668248,
+      "score_percent": 13.554502369668247,
+      "numerator": 143,
+      "denominator": 1055,
+      "status": "complete",
+      "note": ""
+    }
+  ],
+  "livecodebench_evaluation": {
+    "status": "complete",
+    "correct": 143,
+    "total": 1055,
+    "pass@1": 0.13554502369668248,
+    "eval_fingerprint": "e09f78c6ea7359de",
+    "result_path": "/home/lurui/code/Federated_Learning/results/fed_mopsd_qwen3_4b_base/client_student_evaluation/code/livecodebench_eval.json"
+  }
+}

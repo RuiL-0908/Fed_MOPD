@@ -1,0 +1,51 @@
+{
+  "model": "/code/results/client_math_opsd_qwen3_4b_fullft/standalone_math_fullft_100steps_single_4090",
+  "run_fingerprint": "7d44e66eb85234ba",
+  "protocol": {
+    "backend": "vllm",
+    "metric": "avg_at_12",
+    "samples_per_prompt": 12,
+    "max_model_len": 40960,
+    "max_new_tokens": 38912,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "top_k": -1,
+    "min_p": 0.0,
+    "presence_penalty": 0.0,
+    "enable_thinking": true,
+    "seed": 42,
+    "model_signature": "680b393141401502",
+    "vllm_version": "0.32.0"
+  },
+  "created_at_utc": "2026-11-08T04:14:34.481286+00:00",
+  "metrics": [
+    {
+      "benchmark": "AIME25",
+      "metric": "avg_at_12",
+      "problems": 30,
+      "samples_per_prompt": 12,
+      "correct_generations": 241,
+      "total_generations": 360,
+      "score": 0.6694444444444444,
+      "score_percent": 66.94444444444444,
+      "pass_at_12_problems": 26,
+      "pass_at_12_percent": 86.66666666666667,
+      "formatted_generations": 350,
+      "format_rate_percent": 97.22222222222223
+    },
+    {
+      "benchmark": "AIME26",
+      "metric": "avg_at_12",
+      "problems": 30,
+      "samples_per_prompt": 12,
+      "correct_generations": 245,
+      "total_generations": 360,
+      "score": 0.6805555555555556,
+      "score_percent": 68.05555555555556,
+      "pass_at_12_problems": 26,
+      "pass_at_12_percent": 86.66666666666667,
+      "formatted_generations": 355,
+      "format_rate_percent": 98.61111111111111
+    }
+  ]
+}

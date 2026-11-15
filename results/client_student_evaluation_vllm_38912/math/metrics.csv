@@ -1,0 +1,5 @@
+﻿benchmark,domain,metric,score,score_percent,numerator,denominator,status,note
+AIME25,math,avg_at_12,0.027777777777777776,2.7777777777777777,10,360,complete,format_rate=205/360
+AIME25,math,pass_at_12,0.26666666666666666,26.666666666666668,8,30,complete,
+AIME26,math,avg_at_12,0.019444444444444445,1.9444444444444444,7,360,complete,format_rate=221/360
+AIME26,math,pass_at_12,0.1,10.0,3,30,complete,

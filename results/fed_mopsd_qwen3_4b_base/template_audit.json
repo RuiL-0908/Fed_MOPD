@@ -1,0 +1,12 @@
+{
+  "model": "Qwen/Qwen3-4B-Base",
+  "model_source": "/root/models/Qwen3-4B-Base",
+  "model_revision": "modelscope-master",
+  "chat_template_source": "/root/models/Qwen3-4B-Base/tokenizer_config.json",
+  "rendered_example": "<|im_start|>user\nWhat is 1 + 1?<|im_end|>\n<|im_start|>assistant\n",
+  "generation_eos_token_ids": [
+    151643,
+    151645
+  ],
+  "uses_enable_thinking_argument": false
+}

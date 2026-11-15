@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "correct": 132,
+  "total": 1055,
+  "pass@1": 0.12511848341232226,
+  "eval_fingerprint": "beff04d787378ee8",
+  "result_path": "/code/results/fed_mopsd_qwen3_4b_base/evaluation/livecodebench_eval.json"
+}

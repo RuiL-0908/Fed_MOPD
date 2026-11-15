@@ -1,0 +1,46 @@
+{
+  "aime25": {
+    "rows": 30,
+    "columns": [
+      "problem",
+      "answer",
+      "id"
+    ]
+  },
+  "aime26": {
+    "rows": 30,
+    "columns": [
+      "problem",
+      "answer",
+      "id"
+    ]
+  },
+  "ifbench": {
+    "rows": 300,
+    "columns": [
+      "key",
+      "prompt",
+      "instruction_id_list",
+      "kwargs"
+    ]
+  },
+  "ifeval": {
+    "rows": 541,
+    "columns": [
+      "key",
+      "prompt",
+      "instruction_id_list",
+      "kwargs"
+    ]
+  },
+  "livecodebench": {
+    "rows": 1055,
+    "dataset": "livecodebench/code_generation_lite",
+    "release": "release_v6",
+    "split": "test",
+    "has_train_split": false,
+    "repository_revision": "28fef95ea8c9f7a547c8329f2cd3d32b92c1fa24",
+    "dataset_revision": "d44be6b144381afa49392b1f0eb424a64a4d8a10",
+    "loader_mode": "pinned_parquet_shards"
+  }
+}

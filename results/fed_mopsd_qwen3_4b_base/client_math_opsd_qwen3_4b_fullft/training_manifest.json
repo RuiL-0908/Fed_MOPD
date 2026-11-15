@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "implementation": "standalone",
+  "global_step": 50,
+  "final_student": "/code/results/client_math_opsd_qwen3_4b_fullft/standalone_math_fullft_100steps_single_4090",
+  "latest_checkpoint": "/code/results/client_math_opsd_qwen3_4b_fullft/standalone_math_fullft_100steps_single_4090/checkpoint-050",
+  "loss_csv": "/code/results/client_math_opsd_qwen3_4b_fullft/optimizer_step_losses.csv",
+  "loss_json": "/code/results/client_math_opsd_qwen3_4b_fullft/optimizer_step_losses.json",
+  "loss_curve": "/code/results/client_math_opsd_qwen3_4b_fullft/optimizer_step_loss_curve.png"
+}

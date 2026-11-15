@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "correct": 161,
+  "total": 1055,
+  "pass@1": 0.15260663507109004,
+  "eval_fingerprint": "2972ec65945b72a4",
+  "result_path": "/home/lurui/code/Federated_Learning/results/student_qwen3_4b_base_eval/livecodebench_eval.json"
+}

@@ -1,0 +1,8 @@
+{
+  "status": "pending_harness",
+  "resolved": null,
+  "total": 500,
+  "score": null,
+  "error": "Docker preflight failed before SWE-bench evaluation. The existing predictions are intact; this is a host Docker access problem, not a generation/JSONL error.\nDOCKER_HOST=unix:///var/run/docker.sock; socket=/var/run/docker.sock, mode=0o660, uid=0, gid=999, read_write=False; error=DockerException(\"Error while fetching server API version: ('Connection aborted.', PermissionError(13, 'Permission denied'))\")\nCheck on the server: `id`, `ls -l /var/run/docker.sock`, and `docker info`. If the administrator permits Docker, add the user to the docker group with `sudo usermod -aG docker $USER`, then log out/in (or run `newgrp docker`) and verify with `docker run --rm hello-world`. On a managed HPC, ask the administrator for the approved container runtime. Do not make the socket world-writable with chmod 666.",
+  "run_id": "student-qwen3-4b-base"
+}

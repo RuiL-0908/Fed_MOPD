@@ -1,0 +1,3 @@
+﻿benchmark,metric,problems,samples_per_prompt,correct_generations,total_generations,score,score_percent,pass_at_12_problems,pass_at_12_percent,formatted_generations,format_rate_percent
+AIME25,avg_at_12,30,12,241,360,0.6694444444444444,66.94444444444444,26,86.66666666666667,350,97.22222222222223
+AIME26,avg_at_12,30,12,245,360,0.6805555555555556,68.05555555555556,26,86.66666666666667,355,98.61111111111111

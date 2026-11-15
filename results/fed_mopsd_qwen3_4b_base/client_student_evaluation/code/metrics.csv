@@ -1,0 +1,2 @@
+﻿benchmark,domain,metric,score,score_percent,numerator,denominator,status,note
+LiveCodeBench,Code,pass@1,0.13554502369668248,13.554502369668247,143,1055,complete,

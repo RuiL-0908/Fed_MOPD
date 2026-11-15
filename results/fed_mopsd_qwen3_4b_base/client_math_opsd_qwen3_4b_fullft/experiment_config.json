@@ -1,0 +1,28 @@
+{
+  "implementation": "standalone PyTorch/Transformers",
+  "external_opsd_code": false,
+  "model": "Qwen/Qwen3-4B",
+  "model_source": "/code/Qwen3-4B",
+  "dataset": "siyanzhao/Openthoughts_math_30k_opsd",
+  "dataset_source": "/code/Openthoughts_math_30k_opsd",
+  "dataset_revision": "1f33e9dc2e8a1c639ca74f8024ad4a9f1f5eae62",
+  "objective": "full-vocabulary KL(teacher || student)",
+  "pointwise_clip": 0.05,
+  "student_thinking": false,
+  "teacher_thinking": true,
+  "fixed_teacher": true,
+  "full_parameter": true,
+  "learning_rate": 5e-06,
+  "effective_batch": 32,
+  "max_steps": 50,
+  "max_completion_length": 1024,
+  "packages": {
+    "torch": "2.13.0+cu132",
+    "transformers": "5.17.0",
+    "datasets": "4.8.5",
+    "accelerate": "1.15.0",
+    "safetensors": "0.8.0",
+    "tokenizers": "0.23.3"
+  },
+  "created_at_utc": "2026-10-30T01:20:26.535503+00:00"
+}

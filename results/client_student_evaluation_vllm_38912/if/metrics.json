@@ -1,0 +1,111 @@
+{
+  "domain": "if",
+  "model_dir": "/workspace/code/results/fed_mopsd_qwen3_4b_base/training/round_000/client_if/student_model",
+  "run_fingerprint": "f7a5b46bf7a93ddb",
+  "protocol": {
+    "method": "direct-vllm-client-eval-v1",
+    "domain": "if",
+    "model_signature": "bcfe5357838bbd1f",
+    "max_model_len": 40960,
+    "max_new_tokens": 38912,
+    "enable_thinking": true,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "top_k": -1,
+    "min_p": 0.0,
+    "samples_per_prompt": 1,
+    "seed": 42,
+    "vllm_version": "0.33.0"
+  },
+  "created_at_utc": "2026-11-13T12:52:40.290242+00:00",
+  "metrics": [
+    {
+      "benchmark": "IFBENCH",
+      "domain": "if",
+      "metric": "prompt_level_strict",
+      "score": 0.14666666666666667,
+      "score_percent": 14.666666666666666,
+      "numerator": 44,
+      "denominator": 300,
+      "status": "complete",
+      "note": ""
+    },
+    {
+      "benchmark": "IFBENCH",
+      "domain": "if",
+      "metric": "instruction_level_strict",
+      "score": 0.17151162790697674,
+      "score_percent": 17.151162790697676,
+      "numerator": 59,
+      "denominator": 344,
+      "status": "complete",
+      "note": ""
+    },
+    {
+      "benchmark": "IFBENCH",
+      "domain": "if",
+      "metric": "prompt_level_loose",
+      "score": 0.19666666666666666,
+      "score_percent": 19.666666666666664,
+      "numerator": 59,
+      "denominator": 300,
+      "status": "complete",
+      "note": ""
+    },
+    {
+      "benchmark": "IFBENCH",
+      "domain": "if",
+      "metric": "instruction_level_loose",
+      "score": 0.2180232558139535,
+      "score_percent": 21.802325581395348,
+      "numerator": 75,
+      "denominator": 344,
+      "status": "complete",
+      "note": ""
+    },
+    {
+      "benchmark": "IFEVAL",
+      "domain": "if",
+      "metric": "prompt_level_strict",
+      "score": 0.1866913123844732,
+      "score_percent": 18.66913123844732,
+      "numerator": 101,
+      "denominator": 541,
+      "status": "complete",
+      "note": ""
+    },
+    {
+      "benchmark": "IFEVAL",
+      "domain": "if",
+      "metric": "instruction_level_strict",
+      "score": 0.29376498800959233,
+      "score_percent": 29.376498800959233,
+      "numerator": 245,
+      "denominator": 834,
+      "status": "complete",
+      "note": ""
+    },
+    {
+      "benchmark": "IFEVAL",
+      "domain": "if",
+      "metric": "prompt_level_loose",
+      "score": 0.19963031423290203,
+      "score_percent": 19.963031423290204,
+      "numerator": 108,
+      "denominator": 541,
+      "status": "complete",
+      "note": ""
+    },
+    {
+      "benchmark": "IFEVAL",
+      "domain": "if",
+      "metric": "instruction_level_loose",
+      "score": 0.31894484412470026,
+      "score_percent": 31.894484412470025,
+      "numerator": 266,
+      "denominator": 834,
+      "status": "complete",
+      "note": ""
+    }
+  ]
+}
